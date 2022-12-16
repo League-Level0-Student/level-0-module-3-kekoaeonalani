@@ -15,15 +15,28 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use remainder to make the colors alternate between yellow and black
 */
+for (int i = 0; i<300;i+=21){
+ if (i % 2 == 0) {
+         fill(255,255,0);
+         ellipse(i,i, 50,50);
+    }
+    else {
+       fill(0,0,0);
+         ellipse(i,i, 50,50);
+        
 
+
+}
+}
+drawBeeFace(290,290);
 
 
 /*
 Now put his head on using drawBeeFace(x,y)
 */
 
-}
 
+}
 /**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/
 
 void drawFlower(int x, int y) {
